@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "jira": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@trepr/mcp-jira"
+      ],
+      "env": {
+        "JIRA_URL": "https://jira.tre-pr.jus.br",
+        "JIRA_SSL_VERIFY": "false",
+        "NODE_OPTIONS": "--use-system-ca"
+      }
+    }
+  }
+}

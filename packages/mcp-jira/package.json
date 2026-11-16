@@ -1,0 +1,27 @@
+{
+  "name": "@trepr/mcp-jira",
+  "version": "1.0.0",
+  "description": "MCP Server do Jira (mcp-atlassian) com resolução de credenciais via credential store para o TRE-PR",
+  "type": "module",
+  "bin": {
+    "mcp-jira": "bin/run.mjs"
+  },
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "publishConfig": {
+    "@trepr:registry": "https://nexus.tre-pr.jus.br/repository/npm-hosted/"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "jira",
+    "tre-pr",
+    "agent-plugins"
+  ],
+  "author": "SDS/TRE-PR",
+  "license": "UNLICENSED"
+}

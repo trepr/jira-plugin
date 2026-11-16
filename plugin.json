@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jira-plugin",
+  "version": "1.0.0",
+  "description": "Integração com o Jira Server interno do TRE-PR para gerenciar issues, projetos, boards, sprints e worklogs.",
+  "author": {
+    "name": "SDS/TRE-PR"
+  },
+  "keywords": [
+    "jira",
+    "tre-pr",
+    "issues",
+    "sprint",
+    "kanban",
+    "worklog"
+  ],
+  "homepage": "https://github.com/trepr/jira-plugin",
+  "repository": "https://github.com/trepr/jira-plugin"
+}
