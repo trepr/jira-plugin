@@ -1,6 +1,6 @@
 {
   "name": "@trepr/mcp-jira",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP Server do Jira (mcp-atlassian) com resolução de credenciais via credential store para o TRE-PR",
   "type": "module",
   "bin": {

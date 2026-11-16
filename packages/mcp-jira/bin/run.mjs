@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * Credential Helper — Cross-platform credential resolver for the jira-plugin (@trepr/mcp-jira).
  *
